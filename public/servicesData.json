@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "title":"SPIRAL CT SCANNER",
+        "img":"https://www.comfortbd.com/IST/2019/December/26th/1577374892/spiral-ct-scanner_1578728342.jpg",
+        "description":"A spiral computed tomography (CT) scan takes images using radiation. ... Spiral CT uses a faster machine that spins continuously around the body. This allows it to more quickly detect images and spot problems. It can also detect small nodules (early-stage lung disease) that cannot be clearly seen on chest x-rays.",
+        "price":"5000"
+    },
+    {
+        "id": 2,
+        "title":"HEMODIALYSIS",
+        "img":"https://www.comfortbd.com/IST/2020/January/11th/1578728217/spiral-ct-scanner_1578728425.jpg",
+        "description":"Hemodialysis, also spelled haemodialysis, or simply dialysis, is a process of purifying the blood of a person whose kidneys are not working normally.",
+        "price":"4000"
+    },
+    {
+        "id": 3,
+        "title":"DIGITAL X-RAY",
+        "img":"https://www.comfortbd.com/IST/2020/January/11th/1578728587/digital-x-ray_1578728587.jpg",
+        "description":"Digital radiography is a form of radiography that uses x-ray–sensitive plates to directly capture data during the patient examination, immediately transferring it to a computer system without the use of an intermediate cassette.",
+        "price":"6000"
+    },
+    {
+        "id": 4,
+        "title":"OPG",
+        "img":"https://www.comfortbd.com/IST/2020/January/11th/1578728742/opg_1578728742.jpg",
+        "description":"An OPG is a panoramic X-ray of the upper and lower jaws, including the teeth. The OPG unit is specifically designed to rotate around the patient's head during the scan. An OPG will take approximately 20 seconds. An OPG can be used to look for. Fractures.",
+        "price":"7000"
+    },
+    {
+        "id": 5,
+        "title":"RENAL BIOPSY",
+        "img":"https://www.comfortbd.com/IST/2020/January/11th/1578728823/rinal-biopsy_1578728882.jpg",
+        "description":"Renal biopsy is a medical procedure in which a small piece of kidney is removed from the body for examination, usually under a microscope. Microscopic examination of the tissue can provide information needed to diagnose, monitor or treat problems of the kidney.",
+        "price":"3000"
+    },
+    {
+        "id": 6,
+        "title":"ECHO CARDIOGRAM",
+        "img":"https://www.comfortbd.com/IST/2020/January/11th/1578728984/echo-cardiogram_1578728984.jpg",
+        "description":"An echocardiography, echocardiogram, cardiac echo or simply an echo, is an ultrasound of the heart. Echocardiography uses standard two-dimensional, three-dimensional, and Doppler ultrasound to create images of the heart.",
+        "price":"4000"
+    },
+    {
+        "id": 7,
+        "title":"ECG",
+        "img":"https://www.comfortbd.com/IST/2020/January/11th/1578729953/ecg_1578729953.jpg",
+        "description":"Electrocardiography is the process of producing an electrocardiogram, a recording – a graph of voltage versus time – of the electrical activity of the heart using electrodes placed on the skin.",
+        "price":"5000"
+    },
+    {
+        "id": 8,
+        "title":"ULTRASONOGRAPHY",
+        "img":"https://www.comfortbd.com/IST/2020/January/15th/1579068809/comfortbd_1579068809.jpg",
+        "description":"Medical ultrasound is a diagnostic imaging technique based on the application of ultrasound. It is used to create an image of internal body structures such as tendons, muscles, joints, blood vessels, and internal organs. Its aim is often to find a source of a disease or to exclude pathology.",
+        "price":"8000"
+    },
+    {
+        "id": 9,
+        "title":"HORMONES",
+        "img":"https://www.comfortbd.com/IST/2020/January/15th/1579078843/comfortbd_1579078843.jpg",
+        "description":"A hormone is any member of a class of signaling molecules, produced by glands in multicellular organisms, that are transported by the circulatory system to target distant organs to regulate physiology and behavior.",
+        "price":"800"
+    }
+   
+]

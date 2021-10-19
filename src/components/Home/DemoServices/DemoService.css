@@ -1,0 +1,13 @@
+.demo{
+    height: 650px;
+    margin-bottom: 20px;
+}
+.demo:hover{
+    box-shadow: 0px 0px 10px gray;
+    transform:scale(1.02);
+    transition: 0.5s;
+}
+.demo.card img{
+    height: 20rem;
+    width: 90%;
+}

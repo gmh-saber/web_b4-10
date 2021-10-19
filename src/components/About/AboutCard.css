@@ -1,0 +1,14 @@
+.about-container{
+    padding: 30px;
+}
+.cart{
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    height: 400px;
+}
+.cart:hover{
+    box-shadow: 0px 0px 10px gray;
+    transform:scale(1.02);
+    transition: 0.5s;
+}

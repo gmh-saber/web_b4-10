@@ -1,0 +1,19 @@
+.card-hover {
+  margin-bottom: 20px;
+}
+.card {
+  box-shadow: 0px 0px 10px grey;
+}
+.card-hover:hover .card {
+  box-shadow: 0px 0px 15px grey;
+  transform: 0.5s;
+}
+.card-hover:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.quote {
+  font-weight: bold;
+  font-size: 22px;
+}

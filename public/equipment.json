@@ -1,0 +1,51 @@
+[
+    {
+        "_id": 1,
+        "picture": "https://image.made-in-china.com/2f0j00FRhfarolTTbt/Ot-K3008c-Multipurpose-Operating-Table-Head-Control-Hospital-Surgery-Equioment.jpg",
+        "name": "Operating Table",
+        "description": "An Operating table, sometimes called operating room table, is the patient lies during a surgical operation."
+    },
+    {
+        "_id": 2,
+        "picture": "https://media.istockphoto.com/photos/medical-equipment-picture-id154218488?k=20&m=154218488&s=612x612&w=0&h=q_sud82as0m-5a5mRcoGiIU0M_7Xf3o6t7tpXG8o_dM=",
+        "name": "Echocardiogram Machine",
+        "description": "Echocardiogram machine uses standard two-dimensional, three-dimensional and dopper ultrasound to create images of the heart."
+    },
+    {
+        "_id": 3,
+        "picture": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202009/PTI01-08-2020_000209B_1200x768.jpeg?pxaJetQQCIRmG2_.igLKgmYZkz3CeHx7&size=770:433",
+        "name": "ICU Bed",
+        "description": "ICU Beds We are a prominent manufacturer and supplier of Hospital ICU Bed that are manufactured using superior-grade raw-material procured from certified vendors of the market."
+    },
+    {
+        "_id": 4,
+        "picture": "https://daykfmoc67thr.cloudfront.net/Pictures/1024x536/9/0/0/1031900_mrimachine_628365.jpg",
+        "name": "MRI Machine",
+        "description": "Used to large magnet and radio waves to look at organs and body, MRIs are very useful for examining the brain and spinal cord."
+    },
+    {
+        "_id": 5,
+        "picture": "https://ak.picdn.net/shutterstock/videos/25872974/thumb/1.jpg",
+        "name": "X-Ray Machine",
+        "description": "Used to take pictures of dense tissues such as bones and teeth."
+    },
+    {
+        "_id": 6,
+        "picture": "https://padma-bd.com/wp-content/uploads/2014/08/STA-COMPACT-MAX.jpg",
+        "name": "Sebia Capillarys 2 Flex Piercing Fully Automated Electrophoresis",
+        "description": "The CAPILLARYS 2 Flex Piercing instrument utilizes proven capillary separation technology along with cap piercing capabilities to provide whole blood analysis for hemoglobinopathy and thalassemia detection and the new generation of HbA1c testing."
+    },
+    {
+        "_id": 7, 
+        "picture": "http://padma-bd.com/wp-content/uploads/2014/08/XN-3000.jpg",
+        "name": "Stago STA Compact Max 3 Automated Coagulation Analyzer",
+        "description": "This EPC module controls fill volumes of all types of tubes and detect haemolysed, icteric and lipemic samples, allowing the STA Compact Max 3 to check sample integrity to ensure quality results. "
+    },
+    {
+        "_id": 8, 
+        "picture": "https://i0.wp.com/media.globalnews.ca/videostatic/news/x45cgegsh8-kwxpxtkfx2/How_ventilators_work-5e8df9a48daa9002f4e1d0b2_1_Apr_08_2020_20_38_34_poster.jpg?w=1040&quality=70&strip=all",
+        "name": "Ventilator",
+        "description": "ventilator is used to assist or replace spontaneous breathing."
+    }
+]
+
