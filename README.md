@@ -1,4 +1,7 @@
-# Hey there .... Welcome to our website... Here is It's link - https://royel-diagnostic-center.netlify.app/
+# Hey there .... Welcome to our website... 
+# link 1 - https://assignment-10-95698.web.app
+# link 2 -  https://modest-dubinsky-c18088.netlify.app/
+
 
  # Here first of all you will see our home page, where we added some of our services and our best doctors and also added some testimonials from our satisfied patients
  
