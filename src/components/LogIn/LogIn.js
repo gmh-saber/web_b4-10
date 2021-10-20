@@ -1,7 +1,10 @@
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Button from '@restart/ui/esm/Button';
 import React, { useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import UseAuth from '../../Hooks/UseAuth';
-import "../LogIn/Login.css"
 
 const LogIn = () => {
     const { handleGoogleSignIn, logInEmailPassword, error } = UseAuth();
@@ -41,16 +44,16 @@ const LogIn = () => {
                         <input type="password" name="password" placeholder="Password" onChange={handlePass} />
 
                         {
-                            error === text ? <span className="text-danger">Wrong Password</span> : <span className="text-white" >Wrong Password</span>
+                            error === text ? <span className="text-danger hidden">Wrong Password</span> : <span className="text-white hidden" >Wrong Password</span>
                         }
                         <input type="submit" name="signup_submit" value="Log in" onClick={handleLogIn} />
                     </div>
 
-                    <div className="right">
-                        <span className="loginwith">New here<br />just Sign up</span>
+                    <div className="right bg-secondary ">
+                        <span className="loginwith text-white">New here ?<br />Sign up</span>
 
-                        <button className="social-signin facebook" onClick={goToSignUp}> Sign Up with Email</button>
-                        <button className="social-signin google" onClick={googleSignIn}>Log in with Google+</button>
+                        <button className="btn btn-outline-info my-2" onClick={goToSignUp}> Sign Up with <FontAwesomeIcon className="fs-5" icon={faEnvelope} /></button>
+                        <Button className="btn btn-outline-warning " onClick={googleSignIn}>Log in with <FontAwesomeIcon className="fs-5" icon={faGoogle} /></Button>
                     </div>
                     <div className="or">OR</div>
                 </div>

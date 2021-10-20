@@ -1,10 +1,13 @@
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import UseAuth from '../../Hooks/UseAuth';
 import "./Signup.css"
 
-const  Signup = () => {
-    const { handleGoogleSignIn,registerByEmailPass,error } = UseAuth()
+const Signup = () => {
+    const { handleGoogleSignIn, registerByEmailPass, error } = UseAuth()
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
 
@@ -21,47 +24,47 @@ const  Signup = () => {
     const handleRegister = () => {
         registerByEmailPass(email, password)
     }
-    const  goToLogIn = () => {
+    const goToLogIn = () => {
         history.push('/logIn')
     }
     const googleSignIn = () => {
         handleGoogleSignIn()
             .then((result) => {
                 history.push(redirect_uri);
-            }) 
-    } 
-    const text ="auth/email-already-in-use"
+            })
+    }
+    const text = "auth/email-already-in-use"
     return (
 
         <div className="mt-5">
 
             <div>
                 <div id="login-box">
-                    <div className="left">
+                    <div className="left bg-secondary text-white">
                         <h1>Sign up</h1>
 
-                         
+
                         <input type="text" name="email" placeholder="E-mail" onChange={handleEmail} />
                         <input type="password" name="password" placeholder="Password" onChange={handlePass} />
                         <input type="password" name="password2" placeholder="Retype password" />
                         {
-                             error === text ?<span className="text-danger">Give a new email</span> :  <span className="text-white" > Give a new email</span>
-                         }
+                            error === text ? <span className="text-danger hidden">Give a new email</span> : <span className="text-white hidden" > </span>
+                        }
                         <input type="submit" name="signup_submit" value="Sign me up" onClick={handleRegister} />
-                         
+
                     </div>
 
                     <div className="right">
                         <span className="loginwith">Sign in with<br />social network</span>
 
-                        <button className="social-signin facebook" onClick={goToLogIn} >Log in with Email</button>
-                        <button className="social-signin google" onClick={googleSignIn}>Log in with Google+</button>
+                        <button className="btn btn-outline-warning my-2" onClick={goToLogIn} >Log in with <FontAwesomeIcon className="fs-5" icon={faEnvelope} /></button>
+                        <button className="btn btn-outline-info my-2" onClick={googleSignIn}>Log in with <FontAwesomeIcon className="fs-5" icon={faGoogle} /> </button>
                     </div>
                     <div className="or">OR</div>
                 </div>
-            </div> 
+            </div>
         </div>
     );
 };
 
-export default  Signup;
+export default Signup;

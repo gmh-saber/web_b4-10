@@ -11,15 +11,15 @@ const Footer = () => {
 
                 <div className="footer-left">
 
-                    <h3><span style={{ color: 'lightseagreen' }}>SMK </span> Diagonostic Center</h3>
-
-                    <p className="footer-links">
-                        <Link to="/home">Home</Link>
-                        <Link to="/services">Services</Link>
-                        <Link to="/equipment">Equipment</Link>
-                        <Link to="/about">About</Link>
+                    <p className="footer-company-about">
+                        <span>About Us</span>
+                        Over several months this past spring, national correspondent Beth Hawkins tracked the groundbreaking integration efforts of the 78207, the zip code located on the Dhaka FarmGate.
                     </p>
-                    <p className="footer-company-name"><span style={{ color: 'lightseagreen' }}>SMK </span> Diagonostic Center © 2015</p>
+                    <div className="footer-icons">
+                        <FontAwesomeIcon className="icon" icon={faFacebook} size='3x' />
+                        <FontAwesomeIcon className="icon" icon={faInstagram} size='3x' />
+                        <FontAwesomeIcon className="icon" icon={faLinkedinIn} size='3x' />
+                    </div>
                 </div>
                 <div className="footer-center">
                     <div >
@@ -36,15 +36,18 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-right">
-                    <p className="footer-company-about">
-                        <span>About Us</span>
-                        Over several months this past spring, national correspondent Beth Hawkins tracked the groundbreaking integration efforts of the 78207, the zip code located on the Dhaka FarmGate.
+
+                    <h3><span style={{ color: 'lightseagreen' }}>SMK </span> Diagonostic Center</h3>
+
+                    <p className="footer-links">
+                        <Link to="/home">Home</Link>
+                        <Link to="/services">Services</Link>
+                        <Link to="/equipment">Instument's</Link>
+                        <Link to="/about">About</Link>
                     </p>
-                    <div className="footer-icons">
-                        <FontAwesomeIcon className="icon" icon={faFacebook} size='3x' />
-                        <FontAwesomeIcon className="icon" icon={faInstagram} size='3x' />
-                        <FontAwesomeIcon className="icon" icon={faLinkedinIn} size='3x' />
-                    </div>
+                    <p className="footer-company-name"><span style={{ color: 'lightseagreen' }}>SMK </span> Diagonostic Center © 2015</p>
+
+
                 </div>
             </footer>
         </div>

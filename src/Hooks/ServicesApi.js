@@ -7,7 +7,7 @@ const ServicesApi = () => {
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
-    return {services};
+    return { services };
 };
 
 export default ServicesApi;

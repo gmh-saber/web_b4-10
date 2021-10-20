@@ -3,23 +3,24 @@ import { Button, Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
 const ServicesCard = (props) => {
-    const {id, title, img, description,price } = props.service 
-    const history =useHistory()
-    const handleCardDetails =(id)=>{
+    const { id, title, img, description, price } = props.service
+    const history = useHistory()
+    const handleCardDetails = (id) => {
         console.log(id);
         history.push(`/services/${id}`)
     }
     return (
-        <div>
+        <div className='my-10 '>
             <Col>
-                <Card className="w-75">
-                    <Card.Img variant="top" src={img} className="w-50 mx-auto" />
+                <Card style={{ height: '37rem' }} className="w-75">
+                    <Card.Img style={{ height: '10rem' }} variant="top" src={img} className="w-75 border  border-4  border-info rounded mx-auto m-2 " />
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>{price}</Card.Text>
                         <Card.Text>{description}</Card.Text>
-                        <Button onClick={()=>handleCardDetails(id)}>Details</Button>
+
                     </Card.Body>
+                    <Card.Footer><Button onClick={() => handleCardDetails(id)}>Details</Button></Card.Footer>
                 </Card>
             </Col>
         </div>

@@ -6,7 +6,7 @@ import { faAmbulance, faCapsules, faHeartbeat, faMedkit } from '@fortawesome/fre
 const MedInfo = () => {
     return (
         <div>
-            <h1 className="color">MEDICAL SOLUTION</h1>
+            <h1 className="color">Our Service</h1>
             <hr />
 
             <div className="medical-helth row">

@@ -16,7 +16,7 @@ const Home = () => {
                 <Carousel>
                     <Carousel.Item interval={1000}>
                         <img
-                            className="d-block w-100 carouselImg"
+                            className="d-block w-100 carouselImg "
                             src="/caro-1.jpg"
                             alt="First slide"
 
@@ -28,8 +28,8 @@ const Home = () => {
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
                         <img
-                            className="d-block w-100 carouselImg"
-                            src="https://img.freepik.com/free-vector/isometric-medicine-pharmacy-set-with-isolated-medical-products-pharmaceutical-drugs-pills-with-drops_1284-58578.jpg?size=626&ext=jpg"
+                            className="d-block w-100 carouselImg "
+                            src="/research.png"
                             alt="Second slide"
                         />
                         {/* <Carousel.Caption>
@@ -39,8 +39,8 @@ const Home = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100 carouselImg"
-                            src="/caro-3.jpg"
+                            className="d-block w-100 carouselImg "
+                            src="/confident.png"
                             alt="Third slide"
                         />
                         {/* <Carousel.Caption>
@@ -50,10 +50,14 @@ const Home = () => {
                     </Carousel.Item>
                 </Carousel>
             </div>
-
-            <DemoServices></DemoServices>
+            <br />
+            <hr className="w-50 border border-info" />
             <AboutHome></AboutHome>
+            <hr className="w-50 border border-info" />
+            <DemoServices></DemoServices>
+            <hr className="w-50 border border-info" />
             <Testimonials></Testimonials>
+            <hr className="w-50 border border-info" />
             <MedInfo></MedInfo>
 
         </div>
